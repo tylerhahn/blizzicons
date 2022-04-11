@@ -1,0 +1,219 @@
+@font-face {
+  font-family: "blizzicons";
+  src: url("../font/blizzicons.eot?79821424");
+  src: url("../font/blizzicons.eot?79821424#iefix") format("embedded-opentype"),
+    url("../font/blizzicons.woff2?79821424") format("woff2"),
+    url("../font/blizzicons.woff?79821424") format("woff"),
+    url("../font/blizzicons.ttf?79821424") format("truetype"),
+    url("../font/blizzicons.svg?79821424#blizzicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'blizzicons';
+    src: url('../font/blizzicons.svg?79821424#blizzicons') format('svg');
+  }
+}
+*/
+[class^="bi"]:before,
+[class*=" bi"]:before {
+  font-family: "blizzicons";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: 0.2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.laser3:before {
+  content: "\e800";
+} /* '' */
+.laser2:before {
+  content: "\e801";
+} /* '' */
+.laser1:before {
+  content: "\e802";
+} /* '' */
+.knobs:before {
+  content: "\e803";
+} /* '' */
+.iris_xl:before {
+  content: "\e804";
+} /* '' */
+.iris:before {
+  content: "\e805";
+} /* '' */
+.insite_inspire:before {
+  content: "\e806";
+} /* '' */
+.insignia:before {
+  content: "\e807";
+} /* '' */
+.iec_cable2:before {
+  content: "\e808";
+} /* '' */
+.iec_cable1:before {
+  content: "\e809";
+} /* '' */
+.hemisphere:before {
+  content: "\e80a";
+} /* '' */
+.hazer:before {
+  content: "\e80b";
+} /* '' */
+.gt3_xl:before {
+  content: "\e80c";
+} /* '' */
+.gt3:before {
+  content: "\e80d";
+} /* '' */
+.flybar:before {
+  content: "\e80e";
+} /* '' */
+.featured:before {
+  content: "\e80f";
+} /* '' */
+.essential_fx:before {
+  content: "\e810";
+} /* '' */
+.download:before {
+  content: "\e811";
+} /* '' */
+.dmx_controller:before {
+  content: "\e812";
+} /* '' */
+.challenge:before {
+  content: "\e813";
+} /* '' */
+.cases:before {
+  content: "\e814";
+} /* '' */
+.cables2:before {
+  content: "\e815";
+} /* '' */
+.cables1:before {
+  content: "\e816";
+} /* '' */
+.blinder:before {
+  content: "\e817";
+} /* '' */
+.all_in_one:before {
+  content: "\e818";
+} /* '' */
+.wireless_control:before {
+  content: "\e819";
+} /* '' */
+.wash_lights5:before {
+  content: "\e81a";
+} /* '' */
+.wash_lights4:before {
+  content: "\e81b";
+} /* '' */
+.wash_lights3:before {
+  content: "\e81c";
+} /* '' */
+.wash_lights2:before {
+  content: "\e81d";
+} /* '' */
+.wash_lights1:before {
+  content: "\e81e";
+} /* '' */
+.wash_light:before {
+  content: "\e81f";
+} /* '' */
+.w_dmx_1:before {
+  content: "\e820";
+} /* '' */
+.w_dmx_2:before {
+  content: "\e821";
+} /* '' */
+.uv:before {
+  content: "\e822";
+} /* '' */
+.theatrical3:before {
+  content: "\e823";
+} /* '' */
+.theatrical2:before {
+  content: "\e824";
+} /* '' */
+.theatrical1:before {
+  content: "\e825";
+} /* '' */
+.strobe2:before {
+  content: "\e826";
+} /* '' */
+.strobe1:before {
+  content: "\e827";
+} /* '' */
+.stick_lighting:before {
+  content: "\e828";
+} /* '' */
+.soc_it:before {
+  content: "\e829";
+} /* '' */
+.remote:before {
+  content: "\e82a";
+} /* '' */
+.receiver:before {
+  content: "\e82b";
+} /* '' */
+.pixel_mapping:before {
+  content: "\e82c";
+} /* '' */
+.moving_head5:before {
+  content: "\e82d";
+} /* '' */
+.moving_head3:before {
+  content: "\e82e";
+} /* '' */
+.moving_head2:before {
+  content: "\e82f";
+} /* '' */
+.moving_head1:before {
+  content: "\e830";
+} /* '' */
+.moving_head4:before {
+  content: "\e831";
+} /* '' */
+.max_l:before {
+  content: "\e832";
+} /* '' */
+.liftoff:before {
+  content: "\e833";
+} /* '' */
+.led_ribbon:before {
+  content: "\e834";
+} /* '' */
+.laser4:before {
+  content: "\e835";
+} /* '' */
